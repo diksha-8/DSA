@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class BinToDec {
     public static void Bin (int bin) {
         int i =0, dec=0,ld;
@@ -7,6 +8,7 @@ public class BinToDec {
             bin = bin / 10;
             dec =dec+ ld*((int)Math.pow(2,i));
             i++;
+            
         }
         System.out.println("Decimal conversion is "+dec);
     }
